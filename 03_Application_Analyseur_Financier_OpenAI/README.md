@@ -1,14 +1,14 @@
-# 🤖 Analyseur de Documents Financiers - OpenAI
+# Analyseur de Documents Financiers - OpenAI
 
 Application Streamlit moderne pour analyser automatiquement des documents financiers PDF avec OpenAI GPT-4o, offrant la plus haute précision d'analyse.
 
-## 🎯 Objectif
+## Objectif
 
 Transformer rapidement un **rapport financier** (annuel, trimestriel, comptes, bilan, annexes) en un **résumé clair et chiffré** grâce à l'IA générative d'OpenAI.
 
-## ✨ Fonctionnalités Implémentées
+## Fonctionnalités Implémentées
 
-###  Analyse Automatique de PDF
+### Analyse Automatique de PDF
 - **Lecture intelligente** : Extraction du texte page par page avec repères clairs
 - **Nettoyage automatique** : Suppression des espaces inutiles et formatage
 - **Gestion de la longueur** : Limitation automatique pour éviter les dépassements d'API
@@ -18,7 +18,7 @@ Transformer rapidement un **rapport financier** (annuel, trimestriel, comptes, b
 - **Prompting spécialisé** : Instructions d'analyste financier avec format de sortie structuré
 - **Résumé structuré** : Format Markdown avec sections prédéfinies
 
-###  Résumé Financier Structuré
+### Résumé Financier Structuré
 Le système génère automatiquement :
 - **Informations générales** : Société, période, devise
 - **Résumé exécutif** : 5-8 lignes d'analyse
@@ -26,19 +26,19 @@ Le système génère automatiquement :
 - **Analyse détaillée** : Performance, structure financière, risques, outlook
 - **Références internes** : Pages et sections à relire
 
-###  Questions Interactives
+### Questions Interactives
 - **Interface de questions** : Possibilité de poser des questions spécifiques sur le PDF
 - **Réponses sourcées** : Références aux pages d'origine
 - **Précision garantie** : Pas d'invention de données
 
-###  Interface Web Streamlit
+### Interface Web Streamlit
 - **Application web moderne** : Interface intuitive et responsive
 - **Upload de fichiers** : Glisser-déposer de PDF directement dans le navigateur
 - **Analyse en temps réel** : Résumé et questions sans quitter l'interface
 - **Téléchargement** : Export des résumés en format Markdown
 - **Questions suggérées** : Interface cliquable pour les questions courantes
 
-## 🚀 Installation
+## Installation
 
 ### 1. Prérequis
 - Python 3.10+
@@ -132,7 +132,7 @@ streamlit --version
 python -c "import os; print('API Key:', os.getenv('OPENAI_API_KEY')[:10] + '...' if os.getenv('OPENAI_API_KEY') else 'Non trouvée')"
 ```
 
-## 🎯 Utilisation
+## Utilisation
 
 ### Option 1 : Application Streamlit (Recommandée)
 
@@ -150,7 +150,7 @@ L'application s'ouvrira dans votre navigateur à l'adresse : `http://localhost:8
 
 #### Utilisation de l'interface web
 1. **Télécharger un PDF** : Glissez-déposez votre document financier
-2. **Générer le résumé** : Cliquez sur "🚀 Générer le Résumé Financier"
+2. **Générer le résumé** : Cliquez sur "Générer le Résumé Financier"
 3. **Consulter l'analyse** : Résumé structuré avec chiffres clés
 4. **Poser des questions** : Interface de chat pour des questions spécifiques
 5. **Exporter** : Télécharger le résumé en Markdown
@@ -173,7 +173,7 @@ jupyter lab
 3. **Placer votre PDF** : Mettre votre document financier dans le dossier `data/`
 4. **Exécuter les cellules** : Suivre l'ordre des cellules pour l'analyse complète
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 03_Application_Analyseur_Financier_OpenAI/
@@ -188,7 +188,7 @@ jupyter lab
 └── README.md                       # Ce fichier
 ```
 
-## 🔧 Technologies Utilisées
+## Technologies Utilisées
 
 - **OpenAI API** : Modèles GPT-4o pour l'analyse de texte la plus précise
 - **PyMuPDF** : Lecture et extraction de contenu PDF
@@ -197,7 +197,7 @@ jupyter lab
 - **Jupyter** : Environnement de développement interactif
 - **Streamlit** : Interface web moderne et responsive
 
-## 📋 Format de Sortie
+## Format de Sortie
 
 Le résumé généré suit cette structure :
 
@@ -218,7 +218,7 @@ Le résumé généré suit cette structure :
 - **Références internes** : [Pages à relire]
 ```
 
-## 🚀 Workflow de Développement
+## Workflow de Développement
 
 ### 1. Première utilisation
 ```bash
@@ -258,7 +258,7 @@ source openai_env/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
-## ⚠️ Bonnes Pratiques
+## Bonnes Pratiques
 
 - **Vérification** : Toujours vérifier les chiffres affichés et leurs pages d'origine
 - **Précision** : En cas d'ambiguïté, utiliser "non précisé" plutôt que d'inventer
@@ -266,7 +266,7 @@ pip install --upgrade -r requirements.txt
 - **Confidentialité** : Ne pas partager de documents sensibles via l'API
 - **Surveillance des coûts** : Surveiller votre consommation d'API OpenAI
 
-## 🎯 Cas d'Usage
+## Cas d'Usage
 
 - **Analystes financiers** : Résumé rapide de rapports trimestriels
 - **Investisseurs** : Analyse comparative de documents financiers
@@ -274,7 +274,7 @@ pip install --upgrade -r requirements.txt
 - **Consultants** : Préparation de présentations client
 - **Auditeurs** : Vérification rapide de documents financiers
 
-## 💰 Coûts et Quotas
+## Coûts et Quotas
 
 ### Modèles OpenAI et coûts (approximatifs)
 - **GPT-4o** : ~$0.005/1K tokens (input), ~$0.015/1K tokens (output)
@@ -286,14 +286,14 @@ pip install --upgrade -r requirements.txt
 - **Questions supplémentaires** : ~$0.20 - $0.60 par question
 - **Usage intensif** : Considérez un plan payant OpenAI
 
-## 🔒 Sécurité et Confidentialité
+## Sécurité et Confidentialité
 
 - **Communication chiffrée** : Toutes les communications avec OpenAI sont chiffrées
 - **Pas de stockage permanent** : Les documents sont traités en mémoire et supprimés
 - **Variables d'environnement** : Vos clés API restent locales
 - **Audit trail** : Possibilité de tracer l'utilisation de l'API
 
-## 🐛 Résolution de problèmes
+## Résolution de problèmes
 
 ### Erreur de clé API
 ```bash
@@ -329,7 +329,7 @@ which python
 pip show streamlit
 ```
 
-## 🔮 Évolutions Futures
+## Évolutions Futures
 
 - [ ] Support multi-format (Word, Excel, PowerPoint)
 - [ ] Analyse comparative entre documents
@@ -339,22 +339,20 @@ pip show streamlit
 - [ ] Intégration avec des bases de données financières
 - [ ] Support multi-langues
 
-## 📚 Ressources
+## Ressources
 
 - [Documentation OpenAI](https://platform.openai.com/docs)
 - [PyMuPDF Documentation](https://pymupdf.readthedocs.io/)
 - [Documentation Streamlit](https://docs.streamlit.io/)
 - [Challenge GENAIExpress](https://github.com/natachanj/GENAIExpress)
 
-## 🔗 Liens Utiles
+## Liens Utiles
 
 - [OpenAI Platform](https://platform.openai.com/)
 - [OpenAI API Keys](https://platform.openai.com/api-keys)
 - [OpenAI Pricing](https://openai.com/pricing)
 - [Streamlit Documentation](https://docs.streamlit.io/)
 
-
-
-**💡 Avantage principal** : Précision maximale avec GPT-4o, analyse la plus avancée disponible !
+**Avantage principal** : Précision maximale avec GPT-4o, analyse la plus avancée disponible !
 
 

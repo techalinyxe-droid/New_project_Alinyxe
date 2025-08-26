@@ -1,16 +1,16 @@
-# 📊 Analyseur de Documents Financiers - Ollama
+# Analyseur de Documents Financiers - Ollama
 
 Application Streamlit moderne pour analyser des documents financiers PDF en utilisant Ollama avec le modèle Llama 3.1.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- **📁 Import PDF** : Interface drag & drop pour vos documents financiers
-- **🔍 Analyse Automatique** : Extraction de texte et génération de résumés structurés
-- **💬 Questions Interactives** : Chat pour poser des questions spécifiques
-- **🎨 Interface Moderne** : Design élégant et responsive
-- **💾 Export** : Téléchargement des résumés en Markdown
+- **Import PDF** : Interface drag & drop pour vos documents financiers
+- **Analyse Automatique** : Extraction de texte et génération de résumés structurés
+- **Questions Interactives** : Chat pour poser des questions spécifiques
+- **Interface Moderne** : Design élégant et responsive
+- **Export** : Téléchargement des résumés en Markdown
 
-## 🚀 Installation
+## Installation
 
 ### 1. Prérequis
 
@@ -106,7 +106,7 @@ streamlit --version
 ollama list
 ```
 
-## 🎯 Utilisation
+## Utilisation
 
 ### 1. Lancer l'application
 
@@ -133,7 +133,7 @@ streamlit run app.py
 3. **Consulter le résumé** : Analyse structurée avec chiffres clés et références de pages
 4. **Poser des questions** : Interface de chat pour des questions spécifiques
 
-## 📊 Format des Résumés
+## Format des Résumés
 
 Les résumés générés incluent :
 
@@ -143,7 +143,7 @@ Les résumés générés incluent :
 - **Analyse** : Performance, structure financière, risques, outlook
 - **Références internes** : Pages et sections importantes
 
-## ⚙️ Configuration
+## Configuration
 
 ### Paramètres d'analyse
 
@@ -157,7 +157,7 @@ Les résumés générés incluent :
 - `llama3.1:70b` : Modèle plus précis, plus lent
 - `llama3.1:latest` : Dernière version disponible
 
-## 🔧 Dépannage
+## Dépannage
 
 ### Erreur de connexion Ollama
 
@@ -205,7 +205,7 @@ which python
 pip show streamlit
 ```
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 01_Application_Analyseur_Financier_OpenSource_Ollama/
@@ -218,7 +218,7 @@ pip show streamlit
 └── README.md                      # Ce fichier
 ```
 
-## 🎨 Personnalisation
+## Personnalisation
 
 ### Modifier le style CSS
 
@@ -247,7 +247,7 @@ model = st.selectbox(
 )
 ```
 
-## 📝 Exemples d'Utilisation
+## Exemples d'Utilisation
 
 ### Questions typiques
 
@@ -265,7 +265,7 @@ model = st.selectbox(
 - Bilans
 - Annexes financières
 
-## 🚀 Workflow de Développement
+## Workflow de Développement
 
 ### 1. Première utilisation
 ```bash
@@ -305,7 +305,7 @@ source ollama_env/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
-## 🤝 Contribution
+## Contribution
 
 Pour contribuer au projet :
 
@@ -315,11 +315,11 @@ Pour contribuer au projet :
 4. Poussez vers la branche
 5. Ouvrez une Pull Request
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-## 🆘 Support
+## Support
 
 Si vous rencontrez des problèmes :
 
@@ -328,7 +328,7 @@ Si vous rencontrez des problèmes :
 3. Vérifiez que votre environnement virtuel est activé
 4. Ouvrez une issue sur GitHub avec les détails de l'erreur
 
-## 🔗 Liens Utiles
+## Liens Utiles
 
 - [Documentation Ollama](https://ollama.ai/docs)
 - [Documentation Streamlit](https://docs.streamlit.io/)
@@ -337,6 +337,6 @@ Si vous rencontrez des problèmes :
 
 ---
 
-**Développé avec ❤️ pour l'analyse automatisée de rapports financiers**
+**Développé pour l'analyse automatisée de rapports financiers**
 
-**💡 Avantage principal** : Traitement 100% local, aucune donnée externe, confidentialité maximale !
+**Avantage principal** : Traitement 100% local, aucune donnée externe, confidentialité maximale !

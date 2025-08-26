@@ -1,22 +1,22 @@
-# 📊 Analyseur de Documents Financiers - OpenRouter
+# Analyseur de Documents Financiers - OpenRouter
 
 Une application Streamlit moderne qui analyse vos documents PDF financiers avec l'intelligence artificielle via OpenRouter (accès à multiples modèles).
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- **📁 Upload de PDF** : Téléchargez vos rapports financiers (annuels, trimestriels, bilans, etc.)
-- **🤖 Analyse IA** : Génération automatique de résumés structurés avec OpenRouter
-- **📊 Résumé structuré** : 
+- **Upload de PDF** : Téléchargez vos rapports financiers (annuels, trimestriels, bilans, etc.)
+- **Analyse IA** : Génération automatique de résumés structurés avec OpenRouter
+- **Résumé structuré** : 
   - Société, période et devise
   - Résumé exécutif
   - Chiffres clés dans un tableau
   - Analyse détaillée
   - Références aux pages
-- **❓ Questions interactives** : Posez des questions spécifiques sur votre document
-- **💾 Export** : Téléchargez le résumé au format Markdown
-- **🎨 Interface moderne** : Design responsive et intuitif
+- **Questions interactives** : Posez des questions spécifiques sur votre document
+- **Export** : Téléchargez le résumé au format Markdown
+- **Interface moderne** : Design responsive et intuitif
 
-## 🚀 Installation
+## Installation
 
 ### 1. Prérequis
 
@@ -117,7 +117,7 @@ streamlit run app.py
 
 L'application sera accessible à l'adresse : `http://localhost:8501`
 
-## 🔧 Configuration
+## Configuration
 
 ### Modèles OpenRouter disponibles
 - **GPT-4o** (recommandé) : Analyse la plus précise et détaillée
@@ -130,7 +130,7 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 - **Longueur maximale du texte** : Contrôle la taille des documents analysés (50k à 200k caractères)
 - **Temperature** : Contrôle la créativité des réponses (fixée à 0.3 pour la précision)
 
-## 📖 Utilisation
+## Utilisation
 
 ### 1. Téléchargement du document
 - Cliquez sur "Choisir un fichier" dans la section de téléchargement
@@ -138,7 +138,7 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 - L'application analysera automatiquement le document
 
 ### 2. Génération du résumé
-- Cliquez sur "🚀 Générer le Résumé Financier"
+- Cliquez sur "Générer le Résumé Financier"
 - Attendez que l'IA analyse votre document
 - Le résumé structuré s'affichera avec :
   - Métriques clés
@@ -153,10 +153,10 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 - L'historique des questions est conservé pendant la session
 
 ### 4. Export du résumé
-- Cliquez sur "💾 Télécharger le Résumé"
+- Cliquez sur "Télécharger le Résumé"
 - Le fichier sera téléchargé au format Markdown
 
-## 🎯 Exemples de questions
+## Exemples de questions
 
 - "Quel est le chiffre d'affaires 2023 ?"
 - "Quelle est la marge nette du groupe ?"
@@ -164,14 +164,14 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
 - "Quelle est la dette nette ?"
 - "Quelles sont les perspectives de croissance ?"
 
-## 🔒 Sécurité et confidentialité
+## Sécurité et confidentialité
 
 - **Aucun stockage** : Vos documents ne sont pas sauvegardés sur nos serveurs
 - **Traitement temporaire** : Les fichiers sont traités en mémoire et supprimés après analyse
 - **API sécurisée** : Communication chiffrée avec OpenRouter
 - **Variables d'environnement** : Vos clés API restent locales
 
-## 🛠️ Structure du code
+## Structure du code
 
 ```
 02_Application_Analyseur_Financier_OpenSource_OpenRouter/
@@ -185,7 +185,7 @@ L'application sera accessible à l'adresse : `http://localhost:8501`
     └── config.toml
 ```
 
-## 📝 Format de sortie
+## Format de sortie
 
 Le résumé généré suit une structure standardisée :
 
@@ -212,7 +212,7 @@ Le résumé généré suit une structure standardisée :
 [Pages et sections importantes]
 ```
 
-## 🚀 Workflow de Développement
+## Workflow de Développement
 
 ### 1. Première utilisation
 ```bash
@@ -252,7 +252,7 @@ source openrouter_env/bin/activate
 pip install --upgrade -r requirements.txt
 ```
 
-## 🚨 Bonnes pratiques
+## Bonnes pratiques
 
 1. **Vérifiez toujours** les chiffres affichés avec le document original
 2. **Utilisez les références de pages** pour localiser les informations
@@ -260,7 +260,7 @@ pip install --upgrade -r requirements.txt
 4. **Vérifiez la qualité** du PDF (texte lisible, pas d'images uniquement)
 5. **Surveillez votre consommation** d'API OpenRouter
 
-## 🐛 Résolution de problèmes
+## Résolution de problèmes
 
 ### Erreur de clé API
 ```bash
@@ -296,7 +296,7 @@ which python
 pip show streamlit
 ```
 
-## 💰 Coûts et Quotas
+## Coûts et Quotas
 
 ### Modèles et coûts (approximatifs)
 - **GPT-3.5 Turbo** : ~$0.0015/1K tokens
@@ -309,7 +309,7 @@ pip show streamlit
 - **Questions supplémentaires** : ~$0.10 - $0.50 par question
 - **Usage intensif** : Considérez un plan payant OpenRouter
 
-## 📞 Support
+## Support
 
 Pour toute question ou problème :
 1. Vérifiez la documentation OpenRouter
@@ -317,7 +317,7 @@ Pour toute question ou problème :
 3. Vérifiez que toutes les dépendances sont installées
 4. Vérifiez que votre environnement virtuel est activé
 
-## 🔄 Mises à jour
+## Mises à jour
 
 L'application est régulièrement mise à jour pour :
 - Améliorer la précision des analyses
@@ -325,7 +325,7 @@ L'application est régulièrement mise à jour pour :
 - Optimiser les performances
 - Améliorer l'interface utilisateur
 
-## 🔗 Liens Utiles
+## Liens Utiles
 
 - [OpenRouter Documentation](https://openrouter.ai/docs)
 - [OpenRouter API Keys](https://openrouter.ai/keys)
@@ -334,6 +334,6 @@ L'application est régulièrement mise à jour pour :
 
 ---
 
-**⚡ Propulsé par OpenRouter et Streamlit**
+**Propulsé par OpenRouter et Streamlit**
 
-**💡 Avantage principal** : Accès à multiples modèles d'IA, performance optimale, coût contrôlé !
+**Avantage principal** : Accès à multiples modèles d'IA, performance optimale, coût contrôlé !
